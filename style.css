@@ -1,0 +1,270 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  height: 100vh;
+  background-image: url(https://felipe-souza-de-lima.github.io/imagens-thewicher/the%20witcher%20hell.png);
+  background-repeat: no-repeat;
+  background-size:1550px ;
+}
+
+header h1{
+  display: inline-block;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+
+header p{
+  margin-top: 10px;
+  margin-left: 80px;
+  color: #FFFFFF;
+  display: inline-block;
+  vertical-align: top;
+  opacity: 0.5;
+}
+  
+nav{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 10px;
+  margin-top: 30px;
+}
+
+
+nav li{
+  display: inline;
+  margin-left: 10px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #FFFFFF;
+  opacity: 0.5;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+nav a:hover{
+  opacity: 1;
+}
+
+main{
+  background-size: 350px;
+  margin-top: 40px;
+  margin-left: -15px;
+  height: 495px;
+  background-image: url(https://felipe-souza-de-lima.github.io/imagens-thewicher/the%20witcher%20kavil2.png);
+  background-repeat: no-repeat;
+}
+
+.imagem__nome{
+  width: 50%;
+  margin-top: 240px;
+  margin-left: 90px;
+}
+
+.imagem__botao{
+  width: 50%;
+  margin-top: 20px;
+  margin-left:85px ;
+}
+
+@media (min-width:375px){
+  main{
+    margin-left: 10px;
+  }
+
+  nav li{
+    margin-left: 20px;
+  }
+
+  header h1{
+    margin-left: 160px;
+  }
+
+  header p{
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+
+}
+
+@media (min-width:425px){
+  main{
+    margin-left: 35px;
+  }
+
+  nav li{
+    margin-left: 30px;
+  }
+
+  header h1{
+    margin-left: 185px;
+  }
+
+  header p{
+    margin-top: 10px;
+    margin-left: 120px;
+  }
+
+}
+
+@media (min-width:768px){
+  main{
+    margin-left: 210px;
+  }
+
+  nav{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 60px;
+  }
+
+  nav li{
+    margin-left: 25px;
+  }
+
+  nav a {
+    font-size: 20px;
+  }
+
+  
+  header p{
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 63px;
+    margin-left: 70px;
+    opacity: 0.5;
+  }
+
+  .imagem__nome{
+    width: 40%;
+    margin-top: 240px;
+    margin-left: 70px;
+  }
+  
+  .imagem__botao{
+    width: 30%;
+    margin-top: 0px;
+    margin-left:95px ;
+  }
+}
+
+@media (min-width:1024px){
+  main{
+    margin-left: 350px;
+  }
+
+  nav{
+    padding-top: 35px;
+    margin-left: 150px;
+  }
+
+
+  nav li{
+    margin-left: 8px;
+  }
+
+  nav a {
+    font-size: 15px;
+  }
+
+
+  header h1{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  header p{
+    font-size: 18px;
+  }
+  
+
+  .imagem__nome{
+    width: 35%;
+    margin-top: 220px;
+    margin-left: 70px;
+  }
+  
+  .imagem__botao{
+    width: 25%;
+    margin-top: 10px;
+    margin-left:95px ;
+  }
+}
+
+@media (min-width:1440px){
+  body{
+    background-size: 1610px;
+  }
+  
+  header h1{
+    display: inline-block;
+    margin-left: 130px;
+    margin-top: 20px;
+  }
+  
+  header p{
+    color: #FFFFFF;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 60px;
+    margin-left: 50px;
+    opacity: 0.5;
+  }
+  
+  nav{
+    padding-left:250px;
+    padding-top:40px;
+  }
+  
+  nav li{
+    display: inline;
+    margin-left: 35px;
+  }
+  
+  nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 0.5;
+  }
+  
+  nav a:hover{
+    opacity: 1;
+  }
+  
+  main{
+    height: 100vh;
+    background-size: 50%;
+    margin-left: 450px;
+  }
+  
+  .imagem__nome{
+    width: 30%;
+    margin-top: 370px;
+    margin-left: 120px;
+  }
+  
+  .imagem__botao{
+    width: 30%;
+    margin-top: 25px;
+    margin-left:130px ;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
